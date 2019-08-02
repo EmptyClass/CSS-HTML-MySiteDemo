@@ -1,0 +1,185 @@
+/*Root Element*/
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    background-color: white;
+}
+
+
+/*Top Container*/
+
+.top-container {
+    background-color: #EAF6F6;
+    padding: 2% 2% 0 2%;
+}
+
+.mountain-image {
+    margin-top: 5%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 400px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+
+/*Header 1 root*/
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    margin-top: 7%;
+    color: #66BFBF;
+    margin-bottom: 10px;
+}
+
+
+/*Header 2 root*/
+
+h2 {
+    font-size: 2rem;
+    color: #66BFBF;
+}
+
+
+/*Header 3 root*/
+
+h3 {
+    color: #66BFBF;
+}
+
+p {
+    line-height: 2;
+    font-weight: 800;
+}
+
+
+/*Middle Container*/
+
+.middle-container {
+    margin: 50px;
+}
+
+.id-row {
+    margin: 90px;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 55px;
+}
+
+.id-row-p {
+    margin-top: 60px;
+    line-height: 2;
+    color: #40514E;
+    font-weight: 800;
+}
+
+.skill-row {
+    width: 55%;
+    margin: 90px;
+    margin-left: 22.5%;
+    margin-bottom: 55px;
+    margin-top: 55px;
+}
+
+.skill-row-skill1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.skill-row-skill1 img {
+    float: left;
+    margin-right: 5px;
+}
+
+.skill-row-skill1-content {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.skill-row-skill2 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.skill-row-skill2 img {
+    float: right;
+    margin-right: 5px;
+    width: 275px;
+    height: 275px;
+}
+
+.skill-row-skill2-content {
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.contact-row {
+    width: 41%;
+    margin: 90px;
+    margin-left: 29%;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.contact-row h3 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 100px;
+    padding: 35px;
+}
+
+.bottom-container a {
+    color: #11999E;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    /*menghilangkan underline*/
+}
+
+.bottom-container p {
+    color: #EAF6F6;
+    font-size: 0.7rem;
+    margin-top: 30px;
+}
+
+
+/*hr root*/
+
+hr {
+    border: none;
+    border-top: 8px dotted #EAF6F6;
+    background-color: white;
+    width: 5%;
+}
+
+button {
+    background: #66BFBF;
+    border: 0;
+    border-radius: 9px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    color: WHITE;
+    margin-top: 35px;
+}
